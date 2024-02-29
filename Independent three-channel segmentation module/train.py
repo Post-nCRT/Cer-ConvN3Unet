@@ -49,16 +49,20 @@ def tf_dataset(x, y, batch=8):
     return dataset
 
 if __name__ == "__main__":
+    Cer_DWI_train_path = "../1/DWI/train/"
+    Cer_DWI_valid_path = "../1/DWI/valid/"
+    Cer_T2_train_path = "../2/T2/train/"
+    Cer_T2__valid_path = "../2/T2/valid/"
+    Cer_DCE_train_path = "../3/DCE/train/"
+    Cer_DCE_valid_path = "../3/DCE/valid/"
+
     np.random.seed(42)
     tf.random.set_seed(42)
     create_dir("files")
-
-    train_path = "../1/new_data/train/"
-    valid_path = "../1/new_data/valid/"
-
+    
     ## Training
-    train_x = sorted(glob(os.path.join(train_path, "image", "*.jpg")))
-    train_y = sorted(glob(os.path.join(train_path, "mask", "*.jpg")))
+    train_x = sorted(glob(os.path.join(Cer_DWI_train_path, "image", "*.jpg")))
+    train_y = sorted(glob(os.path.join(Cer_DWI_valid_path, "mask", "*.jpg")))
 
     ## Shuffling
     train_x, train_y = shuffling(train_x, train_y)
