@@ -8,7 +8,7 @@ To start the program, please follow the instructions step by step.
 - Utilize the codebase of multi-parametric MRI slices detection module.
 - Utilize the codebase of and independent three-channel segmentation module.
 - Calculate the evaluation metrics and analyse statistical result.
-## Architecture of the pipeline
+## Architecture of the Pipeline
 ![Architecture](https://github.com/Post-nCRT/Cer-ConvN3Unet/blob/main/Figure%201.png)
-## Samples of segmentation results
+## Samples of Segmentation Results
 ![Samples](https://github.com/Post-nCRT/Cer-ConvN3Unet/blob/main/Figure%202.png)
