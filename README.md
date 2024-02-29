@@ -9,4 +9,4 @@ To start the program, please follow the instructions step by step.
 - Utilize the codebase of and independent three-channel segmentation module.
 - Calculate the evaluation metrics and analyse statistical result.
 ## architecture of the pipeline
-![architecture](https://github.com/Post-nCRT/Cer-ConvN3Unet/blob/main/architecture%20of%20the%20pipeline.tif)
+![architecture](architecture of the pipeline.tif)
