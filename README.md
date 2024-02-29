@@ -7,7 +7,7 @@ To start the program, please follow the instructions step by step.
 - Slice 3D MRI images on different sequences to 2D slices, then preprocess and resave them to NIfIT format and JPG/PNG format.
 - Utilize the codebase of multi-parametric MRI slices detection module.
 - Utilize the codebase of and independent three-channel segmentation module.
-- Calculate the evaluation metrics and analyse statistical result.
+- Calculate the evaluation metrics and analyse statistical results.
 ## Architecture of the Pipeline
 ![Architecture](https://github.com/Post-nCRT/Cer-ConvN3Unet/blob/main/Figure%201.png)
 ## Samples of Segmentation Results
