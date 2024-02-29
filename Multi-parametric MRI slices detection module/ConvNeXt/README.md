@@ -1,2 +1,4 @@
 ## Multi-parametric MRI slices detection module based on ConvNeXt
-This module is built upon the work of GitHubUsername/RepositoryName. We extend our gratitude to them for providing the foundation upon which our project is based. We have made modifications to suit the requirements of our project. If you are interested in the original project, please feel free to visit their repository for more information.
+- The module is designed based on the paper 
+- This codebase is built upon the work of [WZMIAOMIAO/deep-learning-for-image-processing](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_classification/ConvNeXt). 
+- We extend our gratitude to them for providing the foundation upon which our project is based. We have made modifications to suit the requirements of our project. If you are interested in the original project, please feel free to visit for more information.
