@@ -49,6 +49,7 @@ def tf_dataset(x, y, batch=8):
     return dataset
 
 if __name__ == "__main__":
+    ## Path - replace the path of each modality (DWI, T2 and DCE)
     Cer_DWI_train_path = "../1/DWI/train/"
     Cer_DWI_valid_path = "../1/DWI/valid/"
     Cer_T2_train_path = "../2/T2/train/"
@@ -68,8 +69,8 @@ if __name__ == "__main__":
     train_x, train_y = shuffling(train_x, train_y)
 
     ## Validation
-    valid_x = sorted(glob(os.path.join(valid_path, "image", "*.jpg")))
-    valid_y = sorted(glob(os.path.join(valid_path, "mask", "*.jpg")))
+    valid_x = sorted(glob(os.path.join(Cer_DWI_train_path, "image", "*.jpg")))
+    valid_y = sorted(glob(os.path.join(Cer_DWI_valid_path, "mask", "*.jpg")))
 
     model_path = "files/model.h5"
     batch_size = 16
